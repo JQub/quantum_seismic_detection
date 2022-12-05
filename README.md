@@ -1,22 +1,24 @@
-# Introduction
+# Intelligent Quantum Sensing with Quantum Neural Networks
 
-# An end-to-end example of VQC classifier for seismic detection
+## Introduction
 
-## Encoding
+## An end-to-end example of VQC classifier for seismic detection
 
-## Learning
+### Encoding
 
-# Results
+### Learning
 
-## Datasets
+## Results
 
-## Simulation Results
+### Datasets
 
-## Results on IBM Quantum
+### Simulation Results
 
-# Publication
+### Results on IBM Quantum
 
-# Collaborators
+## Publication
+
+## Collaborators
 
 Logos: [LANL] [Mason]
 
