@@ -1,13 +1,22 @@
 # Introduction
 
-# Different Encoding Methods
--Amplitude Encoding
--Angle Encoding
--Pulse Encoding
+# An end-to-end example of VQC classifier for seismic detection
 
-# Different Encoding Comparasion
+## Encoding
 
+## Learning
 
-# An example of VQC classifier with angle encoding.
+# Results
 
+## Datasets
+
+## Simulation Results
+
+## Results on IBM Quantum
+
+# Publication
+
+# Collaborators
+
+Logos: [LANL] [Mason]
 
