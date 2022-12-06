@@ -1,4 +1,4 @@
-# Intelligent Quantum Sensing with Quantum Neural Networks
+# Seismic Detection using Quantum Neural Networks
 
 ## Introduction
 
