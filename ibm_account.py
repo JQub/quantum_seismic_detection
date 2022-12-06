@@ -1,7 +1,6 @@
 from qiskit import IBMQ
 
 #change the api for self
-api_token = '22f33f85e8f8144e9fa2b2dffa0b3a2fccf8396564670db4b52c0d00250263e47799f278c9584ebdb98964a655e806e4ff05fe73bd913f3496d3345a0abe43bd'
 hub  = 'ibm-q-education' #'ibm-q-education' 
 group = 'george-mason-uni-1' #'george-mason-uni-1'
 project ='hardware-acceler'#'hardware-acceler'
