@@ -46,7 +46,7 @@ We adopt 2 repeats of a VQC block (4RY +4CRY + 4RY +4RX +4CRX +4RX + 4RZ + 4CRZ 
 |  ----  | ----  |
 | Angle Encoding  | 82% |
 | Amplitude Encoding  | 85.3% |
-| Pulse Encoding  | xxx |
+| Pulse Encoding  | 86.3% |
 
 
 <!-- ### Simulation Results -->
