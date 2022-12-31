@@ -46,7 +46,6 @@ class QFCModel(tq.QuantumModule):
     def forward(self, x, use_qiskit=False):
         # print(x.shape)
         bsz = x.shape[0]
-        n_block = x.shape[1]
         if use_qiskit:
             x = self.qiskit_processor.process_parameterized(
                 self.q_device, self.encoder, self.q_layer, self.measure, x)
@@ -62,8 +61,8 @@ class QFCModel(tq.QuantumModule):
 
 
 class PulseInputDataset(Dataset):
-    def __init__(self,index = None,input_path = 'state_mats_abs1x16.npy',label_path = 'waveforms1500.npy'):
-        self.X = np.load(input_path)
+    def __init__(self,index = None,input_path = 'pulse_input/state_mats_abs1x16.npy',label_path = 'waveforms1500.npy'):
+        self.X = np.load(input_path)[:,0,:16]
         self.Y = np.load(label_path,allow_pickle=True).item()['target']
         if index is not None:
             self.X =self.X[index]
@@ -74,9 +73,9 @@ class PulseInputDataset(Dataset):
 
     def __getitem__(self, idx):
         x = self.X[idx]
-        x = torch.tensor(x,dtype=torch.float32)
+        x = torch.tensor(x)
         y = self.Y[idx]
-        return x,y
+        return {'data': x, 'target': y}
 
 class Simple2Class(Dataset):
     def __init__(self):
