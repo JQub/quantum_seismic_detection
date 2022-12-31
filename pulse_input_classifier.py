@@ -16,25 +16,6 @@ from wave_qmodel import QRNNBlockVqcAmpEnc
 import copy
 
 
-
-data_num =2500
-train_rate = 0.6
-
-
-
-class Logger(object):
-    def __init__(self, file_path: str = "./Default.log"):
-        self.terminal = sys.stdout
-        self.log = open(file_path, "a")
-        self.encoding = None
-
-    def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)
-
-    def flush(self):
-        pass
-
 class PulseInputDataset(Dataset):
     def __init__(self,path,input_name,index = None):
         self.X = np.load(path + input_name +'.npy')
