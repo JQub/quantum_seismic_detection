@@ -55,6 +55,7 @@ We adopt 2 repeats of a VQC block (4RY +4CRY + 4RY +4RX +4CRX +4RX + 4RZ + 4CRZ 
 
 ## Citation
 
+```
 @inproceedings{hu2022quantum,
   title={Quantum neural network compression},
   author={Hu, Zhirui and Dong, Peiyan and Wang, Zhepeng and Lin, Youzuo and Wang, Yanzhi and Jiang, Weiwen},
@@ -62,6 +63,7 @@ We adopt 2 repeats of a VQC block (4RY +4CRY + 4RY +4RX +4CRX +4RX + 4RZ + 4CRZ 
   pages={1--9},
   year={2022}
 }
+```
 
 <img decoding="async" src="logo/lanl.png" width="20%"> 
 <img decoding="async" src="logo/mason.png" width="15%">
