@@ -1,4 +1,4 @@
-# Seismic Detection using Quantum Neural Networks
+# QuED: Quantum Earthquake/Seismic Detection using Quantum Neural Networks
 
 ## Introduction
 
@@ -53,16 +53,16 @@ We adopt 2 repeats of a VQC block (4RY +4CRY + 4RY +4RX +4CRX +4RX + 4RZ + 4CRZ 
 
 <!-- ### Results on IBM Quantum -->
 
-## Publication
+## Citation
 
-[Quantum Neural Network Compression](https://arxiv.org/abs/2207.01578); 
+@inproceedings{hu2022quantum,
+  title={Quantum neural network compression},
+  author={Hu, Zhirui and Dong, Peiyan and Wang, Zhepeng and Lin, Youzuo and Wang, Yanzhi and Jiang, Weiwen},
+  booktitle={Proceedings of the 41st IEEE/ACM International Conference on Computer-Aided Design},
+  pages={1--9},
+  year={2022}
+}
 
-**Zhirui Hu**, Peiyan Dong, Zhepeng Wang, Youzuo Lin, Yanzhi Wang, Weiwen Jiang
-
-Accepted by IEEE/ACM International Conference On Computer-Aided Design (ICCAD), 2022.
-
-
-## Collaborators
 <img decoding="async" src="logo/lanl.png" width="20%"> 
 <img decoding="async" src="logo/mason.png" width="15%">
 
